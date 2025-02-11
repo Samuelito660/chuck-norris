@@ -1,0 +1,13 @@
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    margin-top: 500px;
+    font-family: sans-serif;
+
+    padding-top: 10px;
+}
