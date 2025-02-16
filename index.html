@@ -9,34 +9,49 @@
     <link rel="stylesheet" href="static/css/index.css">
     <link rel="stylesheet" href="static/css/button.css">
     <link rel="stylesheet" href="static/css/tendina.css">
+    <link rel="stylesheet" href="static/css/testo.css">
 
 
 </head>
 <body>
-    <script></script>
-    <h1>Chuck Norris jokes</h1>
+    
+    <div>
+        <h1>Chuck Norris jokes</h1>
+    </div>
+    
+
 
     <div class="tendina">
-        <select>
-            <option value="animal">Animal</option>
-            <option value="career">Career</option>
-            <option value="celebrity">Celebrity</option>
-            <option value="dev">Dev</option>
-            <option value="explicit">Explicit</option>
-            <option value="fashion">Fashion</option>
-            <option value="food">Food</option>
-            <option value="history">History</option>
-            <option value="money">Money</option>
-            <option value="movie">Movie</option>
-            <option value="music">Music</option>
-            <option value="political">Political</option>
-            <option value="religion">religion</option>
-            <option value="science">Science</option>
-            <option value="sport">Sport</option>
-            <option value="travel">Travel</option>
+        <select id="scelta">
+            <option value=0>Non selezionato</option>
+            <option value=1>Animal</option>
+            <option value=2>Career</option>
+            <option value=3>Celebrity</option>
+            <option value=4>Dev</option>
+            <option value=5>Explicit</option>
+            <option value=6>Fashion</option>
+            <option value=7>Food</option>
+            <option value=8>History</option>
+            <option value=9>Money</option>
+            <option value=10>Movie</option>
+            <option value=11>Music</option>
+            <option value=12>Political</option>
+            <option value=13>Religion</option>
+            <option value=14>Science</option>
+            <option value=15>Sport</option>
+            <option value=16>Travel</option>
         </select> 
     </div> 
 
-    <a href="https://api.chucknorris.io/jokes/random" class="button">BUTTON JOKE</a>
+
+    <div>
+        <a href="https://api.chucknorris.io/jokes/random" class="button">BUTTON JOKE</a>
+    </div>
+
+    
+    <p id="burla" class="testo"></p>
+
+
+    <script src="static/js/script.js"></script>
 </body>
 </html>
