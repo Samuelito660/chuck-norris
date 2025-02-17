@@ -82,10 +82,11 @@ scelta.addEventListener("change", function(){
 
 
 let btn = document.querySelector(".button")
-    let risorsa
+let risorsa
 
 
     btn.addEventListener("click", function (e) {
+        
         e.preventDefault()
 
         risorsa = fetch(url).then(

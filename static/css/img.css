@@ -1,0 +1,12 @@
+.conteiner{
+    display: flex;
+    align-items: center;
+    
+    padding-left: 20px;
+}
+
+.conteiner img{
+    height: 250px;
+
+}
+
